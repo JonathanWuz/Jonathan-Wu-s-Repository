@@ -39,8 +39,7 @@ baseurl: "/Jonathan-Wu-s-Repository" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: fastdotai
-    github: fastai
+    - { youtube: rss, rice4eva: "https://www.youtube.com/c/mL7support" }
 
 # Set this to true to get LaTeX math equation support
 use_math: 
