@@ -1,9 +1,9 @@
 ---
 toc: true
 layout: post
-description: A minimal example of using markdown with fastpages.
+description: Notes on Mathematical Expressions and Strings
 categories: [markdown]
-title: Markdown File
+title: Mathematical Expression and Strings
 ---
 
 # Mathematical Expression and Strings
