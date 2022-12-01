@@ -1,12 +1,12 @@
 ---
 toc: true
 layout: post
-description: A minimal example of using markdown with fastpages.
+description: Notes on Variables, Assignments, and Abstractions
 categories: [markdown]
-title: Markdown File
+title: Variables, Assignments, and Abstractions
 ---
 
-## Variables,
+## Variables, Assignments, and Data Abstractions
 An abstraction inside a program that can hold a value
 
 ### Naming Variables
