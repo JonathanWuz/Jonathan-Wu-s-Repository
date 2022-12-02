@@ -68,3 +68,39 @@ num1 = 9 % 2 * (8 - 2) + 8 / (6 - 4)
 num1 = 10.0
 
 ## Variables
+
+### Different Ways Values are Stored in Variables
+1. Numerical value stored in a variable
+2. Value of another variable stored in a variable
+3. result of an operation stored in a variable
+4. Result of a procedure call stored in a variable
+
+score = 0
+score = newScore
+score = newScore + 2
+avgScore = allscores(20, 60, 80)
+
+### Sequencing is Important!
+Changing the order of the steps changes the overall outcome, since every time the value assigned to a variable is changed, it overrides the last value which was assigned to the same variable. That is why it is important to track the value of variables, especially in code where the value is constantly changing.
+
+num1 = 2
+num2 = 4
+num3 = 6
+num1 = num2 + num3
+num2 = num1 + num3
+Vs.
+num1 = 2
+num2 = 4
+num3 = 6
+num2 = num1 + num3
+num1 = num2 + num3
+
+### Tracking Variables
+Tracking variables is a common question found on AP exams and is an important thing to keep in mind when writing any code. If the value of your variables changes a lot, not accounting for these changes can result in an unwanted outcome.
+
+var1 = 9
+var2 = 7
+var3 = 2
+print(var1)
+print(var2)
+print(var3)
