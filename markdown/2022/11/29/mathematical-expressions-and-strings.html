@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      1 min read
+      2 min read
     
 </span></p>
 
@@ -111,7 +111,13 @@ window.onload = wrap_img;
 </li>
 <li class="toc-entry toc-h2"><a href="#different-uses">Different Uses</a></li>
 <li class="toc-entry toc-h2"><a href="#order-of-operations">Order of Operations</a></li>
-<li class="toc-entry toc-h2"><a href="#variables">Variables</a></li>
+<li class="toc-entry toc-h2"><a href="#variables">Variables</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#different-ways-values-are-stored-in-variables">Different Ways Values are Stored in Variables</a></li>
+<li class="toc-entry toc-h3"><a href="#sequencing-is-important">Sequencing is Important!</a></li>
+<li class="toc-entry toc-h3"><a href="#tracking-variables">Tracking Variables</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul><h1 id="mathematical-expression-and-strings">
@@ -199,6 +205,47 @@ num1 = 10.0</li>
 
 <h2 id="variables">
 <a class="anchor" href="#variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variables</h2>
+
+<h3 id="different-ways-values-are-stored-in-variables">
+<a class="anchor" href="#different-ways-values-are-stored-in-variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Different Ways Values are Stored in Variables</h3>
+<ol>
+  <li>Numerical value stored in a variable</li>
+  <li>Value of another variable stored in a variable</li>
+  <li>result of an operation stored in a variable</li>
+  <li>Result of a procedure call stored in a variable</li>
+</ol>
+
+<p>score = 0
+score = newScore
+score = newScore + 2
+avgScore = allscores(20, 60, 80)</p>
+
+<h3 id="sequencing-is-important">
+<a class="anchor" href="#sequencing-is-important" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sequencing is Important!</h3>
+<p>Changing the order of the steps changes the overall outcome, since every time the value assigned to a variable is changed, it overrides the last value which was assigned to the same variable. That is why it is important to track the value of variables, especially in code where the value is constantly changing.</p>
+
+<p>num1 = 2
+num2 = 4
+num3 = 6
+num1 = num2 + num3
+num2 = num1 + num3
+Vs.
+num1 = 2
+num2 = 4
+num3 = 6
+num2 = num1 + num3
+num1 = num2 + num3</p>
+
+<h3 id="tracking-variables">
+<a class="anchor" href="#tracking-variables" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tracking Variables</h3>
+<p>Tracking variables is a common question found on AP exams and is an important thing to keep in mind when writing any code. If the value of your variables changes a lot, not accounting for these changes can result in an unwanted outcome.</p>
+
+<p>var1 = 9
+var2 = 7
+var3 = 2
+print(var1)
+print(var2)
+print(var3)</p>
 
   </div><a class="u-url" href="/Jonathan-Wu-s-Repository/markdown/2022/11/29/mathematical-expressions-and-strings.html" hidden></a>
 </article>
