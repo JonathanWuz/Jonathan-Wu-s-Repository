@@ -13,22 +13,22 @@
   
     
         ,"post1": {
-            "title": "Procedures",
-            "content": "",
-            "url": "https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/2022/12/12/Procedures.html",
-            "relUrl": "/2022/12/12/Procedures.html",
-            "date": " • Dec 12, 2022"
+            "title": "Title",
+            "content": "import random def roll(n): rollsList = [] while n &gt; 0: rollsList.append(random.randint(1,20)) n -= 1 print(rollsList) return max(rollsList) roll(3) . [7, 17, 7] . 17 .",
+            "url": "https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/2022/12/09/Odin-Homework.html",
+            "relUrl": "/2022/12/09/Odin-Homework.html",
+            "date": " • Dec 9, 2022"
         }
         
     
   
     
         ,"post2": {
-            "title": "Title",
-            "content": "import random def roll(n): rollsList = [] while n &gt; 0: rollsList.append(random.randint(1,20)) n -= 1 print(rollsList) return max(rollsList) roll(3) . [7, 17, 7] . 17 .",
-            "url": "https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/2022/12/09/Odin-Homework.html",
-            "relUrl": "/2022/12/09/Odin-Homework.html",
-            "date": " • Dec 9, 2022"
+            "title": "Unit 3 Sections 12-13",
+            "content": "Calling Procedures . Slide 1: . A procedure is a named group of programming instructions that may have parameters and return values. | Procedures are referred to by different names, such as method or function, depending on the programing language. | Parameters are input values of a procedure. Arguments specify the values of the parameters when procedure is called. | A procedure call interrupts the sequential execution of statements causing the program to execute the statements within the procedure before continuing. One the last statement in the procedure (or a return statement) has executed, flow or control is returned to the point immediately following where the procedure was called. | . Slide 2: . When calling procedures, it&#39;s important to take notice to whether it returns data, or a block of statements. | If the procedure just returns a block of statements, you call the procedure by referring to the procedure name, and inputting the arguments. | If the procedure returns some sort of data like a boolean or value, then you will assign that value to a variable | . Slide 3: . Assume the Temperature outside is Fahrenheit. | The procedure convertFahrenheit is intended to convert from Fahrenheit to Celsius. | Convert the following psuedocode to python | . def convertFahrenheit(): # code goes here return celsius convertFahrenheit(outsideTemp) . Developing Procedures . Slide 8: . Picking a descriptive name is important in case you revisit the code later on (separate words with capitals) There are 2 different types of procedures- ones that return a value and those that simply execute a block of statements Steps of developing procedure: picking a useful name, thinking of parameters (what data does the procedure need to know), making a flowchart or writing procedure in pseudocode, and actually developing the procedure. . Slide 9: . In this example, a teacher is writing a program that will replace the grade on a previous quiz if the new grade is better than the previous. . What would be a good name for this procedure? | What parameters do we need for this procedure? | Try writing this procedure out in python based on the given pseudocode | . currentGrade &lt;- currentPoints / 40 currentGrade &lt;- current Grade * 100 if currentGrade &gt; quizGrade quizGrade &lt;- currentGrade . Procedural Abstraction . One type of abstraction is procedural abstraction which provides a name for a process and allows a procedure to be used only knowing what it does and not how it does it | This is very helpful in managing complexity in a program | Subdivision of a program into separate subprograms is called modularity | A procedural abstraction may extract shared features to generalize functionality instead of duplicating code. This allows for program reuse, which helps manage complexity | When a pre-written procedure is called, you don’t necessarily need to know the details of this, just what it does and how to call it | Simply, procedural abstraction is naming and calling a prewritten procedure | Making sure to include the right arguments so the procedure can do what its supposed to do is crucial | . Complexity Example . One of the biggest advantages of procedural abstraction is managing complexity. . Think about the process of simplifying the code? What do you think the advantage of the code segment on the left is? . Code Segment 1 Code Segment 2 . ROTATE_LEFT() | detourLeft() | . MOVE_FORWARD()|turnCorner()| ROTATE_RIGHT |MOVE_FORWARD()| MOVE_FORWARD()|MOVE_FORWARD()| MOVE_FORWARD() ROTATE_RIGHT() MOVE_FORWARD() ROTATE_LEFT() MOVE_FORWARD() ROTATE_LEFT() MOVE_FORWARD() MOVE_FORWARD MOVE_FORWARD() . Hacks . Write a python procedure about something which can help you in school, for example the teacher’s function we spoke about earlier. | Points will be awarded based on creativity and functionality | 0.1 points will be deducted for late submissions | Submit the notes with all blanks filled in (scored out of 0.5 points) and the python procedure (scored out of 0.5 points) by Monday 12/12 at 11:59 PM. | . def procedure() # code goes here return # code goes here .",
+            "url": "https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/lessons/2022/12/07/developing-procedures.html",
+            "relUrl": "/lessons/2022/12/07/developing-procedures.html",
+            "date": " • Dec 7, 2022"
         }
         
     
