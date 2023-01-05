@@ -3,9 +3,9 @@
     
         "post0": {
             "title": "Links to Lessons",
-            "content": "toc: false | branch: master | badges: true | comments: true | permalink: /jupyter/libraries | categories: [jupyter,markdown] | .",
-            "url": "https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/2022/12/19/Links-to-Lessons.html",
-            "relUrl": "/2022/12/19/Links-to-Lessons.html",
+            "content": "Unit Link . 3.1-3.2 Variables and Assignment | https://dillonlee06.github.io/ZestyYeungsReborn/jupyter/week%2013/2022/11/27/Variable-Assignment.html | . 3.3-3.4 Mathematical Expressions and Strings | https://manigggg18.github.io/manimani/jupyter/lesson2 | . 3.5-3.7 Boolean Expression and Conditionals | https://jasoxddd.github.io/booleanConditionals/2022/12/14/boolean.html | . 3.8-3.10 Boolean Iteration and Lists | https://teamorborb.github.io/TeamOrbOrb/lesson%20plans/2022/11/28/Unit_3.8_3.10.html | . 3.9-3.11 Developing Algorithms and Binary Search | https://gwang1224.github.io/repository_1/trimester%202%20student%20teaching/2022/12/02/unit3-9-11.html | . 3.12-3.13 Calling and Developing Procedures | https://docs.google.com/presentation/d/1stQzqXT_n2BdQsnACnW3t4ZYaIePEVOL6Rs6aomxDKI/edit | . 3.14-3.15 Libraries and Random Values | https://saavangade.github.io/Saavan/ap%20csp/unit%203/section%2014/section%2015/lesson/2022/12/11/Lesson-Unit-3-Section-14-15.html | . 3.16 Simulations | https://t-dev-ccm.github.io/Fastpage-setup/lesson/2022/12/12/Simulations.html | . 3.17-3.18 Algorithm Efficiency and Undecidable Problems | https://mmaxwu.github.io/Tri2-GroupFastpages/lesson | .",
+            "url": "https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/jupyter/libraries",
+            "relUrl": "/jupyter/libraries",
             "date": " • Dec 19, 2022"
         }
         
