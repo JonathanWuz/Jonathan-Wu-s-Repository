@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Links to Lessons",
-            "content": "",
+            "content": "toc: false | branch: master | badges: true | comments: true | permalink: /jupyter/libraries | categories: [jupyter,markdown] | .",
             "url": "https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/2022/12/19/Links-to-Lessons.html",
             "relUrl": "/2022/12/19/Links-to-Lessons.html",
             "date": " • Dec 19, 2022"
