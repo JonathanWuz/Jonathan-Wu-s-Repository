@@ -37,6 +37,6 @@ As programmers, you now have the possibility of creating algorithms. It has been
 - This camera feature should be tried to be fixed. Fixing the feature would allow all people to use it which is ideal. However, it should be noted that troubleshooting takes time.
 - I should be aware of computing bias and think about if there are any problems with my program that benefit us but harm the user like with the examples of Google and Amazon. I should also consider people's backgrounds: age, ethnicity, religion, etc. and make sure no one is excluded from our features. 
 
-## Summary
+## Hacks
 In this world, there are many baises in computer programs, companies, and apps. It is important to take note of these biases and try to void them as much as possible. One bias could be age and how different apps such as Facebook and TikTok have different targeted age groups. On is adult while the other targets teenagers. However, diversity in these types of apps is very important because it leads to less seperation. Another bias can be caused by race, ethnicity, etc. such as with the example of HP's computer face tracking. In our own program regarding helping companies with shipment, one bias we may need to consider is small vs big businesses. We should help all businesses alike and thus we should be aware of possible biases in our features/ program.
 
