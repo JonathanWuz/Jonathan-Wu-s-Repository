@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Big Idea 5.6 Safe Computing | fastpages</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Big Idea 5.6 Safe Computing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Notes on Safe Computing" />
+<meta property="og:description" content="Notes on Safe Computing" />
+<link rel="canonical" href="https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/markdown/2023/02/08/5.6-Safe-Computing.html" />
+<meta property="og:url" content="https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/markdown/2023/02/08/5.6-Safe-Computing.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-02-08T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Big Idea 5.6 Safe Computing" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-02-08T00:00:00-06:00","datePublished":"2023-02-08T00:00:00-06:00","description":"Notes on Safe Computing","headline":"Big Idea 5.6 Safe Computing","mainEntityOfPage":{"@type":"WebPage","@id":"https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/markdown/2023/02/08/5.6-Safe-Computing.html"},"url":"https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/markdown/2023/02/08/5.6-Safe-Computing.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Jonathan-Wu-s-Repository/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/Jonathan-Wu-s-Repository/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/Jonathan-Wu-s-Repository/">fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/Jonathan-Wu-s-Repository/about/">About Me</a><a class="page-link" href="/Jonathan-Wu-s-Repository/search/">Search</a><a class="page-link" href="/Jonathan-Wu-s-Repository/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Big Idea 5.6 Safe Computing</h1><p class="page-description">Notes on Safe Computing</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-02-08T00:00:00-06:00" itemprop="datePublished">
+        Feb 8, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      4 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/Jonathan-Wu-s-Repository/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#personal-identifiable-information-pii">Personal Identifiable Information (PII)</a></li>
+<li class="toc-entry toc-h2"><a href="#pii-considerations">PII Considerations</a></li>
+<li class="toc-entry toc-h2"><a href="#beware-establish-practices-for-your-own-safety">Beware, Establish practices for your own Safety</a></li>
+<li class="toc-entry toc-h2"><a href="#factors-to-increase-security-of-system">Factors to Increase Security of System</a></li>
+<li class="toc-entry toc-h2"><a href="#nefarious-uses-of-internet">Nefarious Uses of Internet</a></li>
+<li class="toc-entry toc-h1"><a href="#blog-post-reflection">Blog Post Reflection</a></li>
+</ul><h2 id="personal-identifiable-information-pii">
+<a class="anchor" href="#personal-identifiable-information-pii" aria-hidden="true"><span class="octicon octicon-link"></span></a>Personal Identifiable Information (PII)</h2>
+
+<p>As we create a Web Site and post information we are adding to the Searchable PII. However, there is a dichotomy as a site like LinkedIn is a place where we want to be known for our accomplishments. But be aware, the person that looks at your LinkedIn will, most likely, look at things like TikTok, Instagram or Facebook.</p>
+
+<h2 id="pii-considerations">
+<a class="anchor" href="#pii-considerations" aria-hidden="true"><span class="octicon octicon-link"></span></a>PII Considerations</h2>
+<ul>
+  <li>Things that will be known by everyone: Name, Email (suggest a junk email), Picture, High School attended, College Attended, Properties you own, State-City of residence, all State-City of previous residence, Credit Reports, …</li>
+  <li>Gray area items, more cautious: Birth date, Place of Birth, Street Address, Phone Number, Maiden names of Mother and Grandmother, Drivers License Number, …</li>
+  <li>Things that you should strive to keep absolutely secret: Credentials for Access, Two-Factor Authentication on Financial accounts, Social Security Number, Tax records, …</li>
+</ul>
+
+<h2 id="beware-establish-practices-for-your-own-safety">
+<a class="anchor" href="#beware-establish-practices-for-your-own-safety" aria-hidden="true"><span class="octicon octicon-link"></span></a>Beware, Establish practices for your own Safety</h2>
+<ul>
+  <li>Multi-factor authentication often requires you to enter a code that has been texted or emailed to you. Other types of authentication are biometrics (finger print or facial recognition).</li>
+  <li>Malware is often sent in attachments to things in email. Often they request you to click on an attachment and it starts the process of adding a virus to your computer.</li>
+  <li>Phishing is where unknown sources try to entice you into a response, like click here and receive $500. Often such systems impersonate someone like Amazon asking for login information. Be careful to look closely at source of email (ie amzn.com vs amazon.com).</li>
+</ul>
+
+<h2 id="factors-to-increase-security-of-system">
+<a class="anchor" href="#factors-to-increase-security-of-system" aria-hidden="true"><span class="octicon octicon-link"></span></a>Factors to Increase Security of System</h2>
+<ul>
+  <li>Most of my financials or critical systems use Multi Factor authentication</li>
+  <li>Biometrics is something that is used secure systems, fingerprints or facial recognition</li>
+  <li>Symmetric encryption is a type of encryption where only one key (a secret key) is used to both encrypt and decrypt electronic information.</li>
+  <li>Asymmetric cryptography, also known as public-key cryptography, is a process that uses a pair of related keys – one public key and one private key – to encrypt and decrypt a message and protect it from unauthorized access or use.</li>
+  <li>SSL Uses both Asymmetric and Symmetric Encryption</li>
+</ul>
+
+<h2 id="nefarious-uses-of-internet">
+<a class="anchor" href="#nefarious-uses-of-internet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nefarious Uses of Internet</h2>
+<ul>
+  <li>A Virus or Malware compromise security, they are opposite of increasing security.</li>
+  <li>Phishing is a way to get a Virus on your machine, or a way to get you to input PII.</li>
+  <li>After a Virus or being compromised by Phishing it is advised to review all of you PII vulnerabilities.</li>
+</ul>
+
+<h1 id="blog-post-reflection">
+<a class="anchor" href="#blog-post-reflection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Blog Post Reflection</h1>
+<ol>
+  <li>Describe PII you have seen on project in CompSci Principles.</li>
+  <li>What are your feelings about PII and your personal exposure?</li>
+  <li>Describe good and bad passwords? What is another step that is used to assist in authentication.</li>
+  <li>Try to describe Symmetric and Asymmetric encryption.</li>
+  <li>Provide an example of encryption we used in AWS deployment.</li>
+  <li>Describe a phishing scheme you have learned about the hard way. Describe some other phishing techniques.</li>
+</ol>
+
+<ul>
+  <li>Some PII in our own project consists of the Personal Identifiable Information inputted by the user, usually when they try to sign up on our login page. Hwere, they will input PII like their name, email, phone number. We then use this information to create connections between our users.</li>
+  <li>PII is good for websites to personalize and create a suitable enviroment but is dangerous because it can be used against the person. Someone can use public PII to find out about a person’s location and if they get access to other personal exposure, they can do much more dangerous things.</li>
+  <li>Good passwords have multiple characters, all of which are hard to guess and make sense to the user. They can consist of capital and undercase letters, number, signs, words, etc. Bad Passwords are easy to guess and thus easy to break in. Another step that assists in authentication is another detail, perhaps a username or a email account that adds an extra layer of security.</li>
+  <li>Symmetric encryption is encryption that makes sense to the user and the holder. It makes the password undecipherable to outside perspectives. Asymmetric encryption is encryption that neither outsiders nor users can understand. The only ones with access to these are the holders themselves.</li>
+  <li>An example of encryption used in AWS deployment was password encryption in the containers. Users could not access if weren’t in the same regional district.</li>
+  <li>One phishing technique is downloading from an untrustable website. When you download something and aren’t sure what it is, it can likely be a virus or other form of malware that can end up disrupting your device.</li>
+</ul>
+
+  </div><a class="u-url" href="/Jonathan-Wu-s-Repository/markdown/2023/02/08/5.6-Safe-Computing.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/Jonathan-Wu-s-Repository/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://jonathanwuz.github.io/Jonathan-Wu-s-Repository/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/Jonathan-Wu-s-Repository/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
