@@ -1,6 +1,6 @@
 ---
-description: A blog post reflection of the event, Night at The Museum.
-title: N@TM Blog Posrt
+description: Writeup of my feature for CPT.
+title: CPT Write Up
 toc: true
 categories: [markdown]
 layout: post
@@ -33,7 +33,7 @@ By storing the variables respectively, I manage complexity by preventing duplica
 ### 3.c.iii.
 The procedure here is addProduct. It retrieves the user input from the formboxes. When the 'click' is made on each respective button the input from the user is stored and placed into a database which is then displayed within the input field. Also, the program gets elements by their id which is product, cost, and stock respectively.
 ### 3.c.i.v
-![]({{site.baseurl}}/images/Screenshot (103).png)
+![]({{site.baseurl}}/images/Screenshot (110).png)
 The code defines a function addProduct which starts by collecting input data from a web form using document.getElementById. The function then proceeds to use selection to check if the username field is empty, and if it is, it displays an alert to the user and returns from the function. If the username field is not empty, the function constructs a data object using sequencing, which contains the input values collected earlier. The function then constructs a requestOptions object also using sequencing which includes the data object, and specifies the HTTP method and content type headers for a POST request. The function then uses iteration, in the form of a try-catch block, to handle errors that may occur during the fetch request. Finally, the function uses fetch to send a POST request to a specified URL and logs the success response to the console, as well as displaying an alert to the user.
 
 ## 3.d
