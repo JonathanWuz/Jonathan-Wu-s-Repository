@@ -80,7 +80,7 @@ html_escape:
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
-remote_theme: pages-themes/merlot@v0.2.0
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
