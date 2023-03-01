@@ -44,24 +44,4 @@ The user inputs the attributes of their product and clicks on the “addProduct�
 Conditions for user input manages our program's recieved input. These conditions are enforced by the placeholders. They make sure user input match the requested structure so that no false input goes in. The second last command of my program enforces that there is something to call back to. Pattern also helps recieved data to mach the specific formatting. Each of these test cases executes different parts of the algorithm, going by the condition of which input fields are filled out for each attribute.
 
 # Peer Review Scores and Feedback
-## Ahad's Grading
-Score: 4/6
-| Reporting Category | Requirements |
-|  ------------- | ------------- |
-| Program Purpose and Function | [&check;] describes the overall purpose of the program demonstrated in the video. <br/> [&check;] describes what functionality of the program is demonstrated in the video <br/> [&check;] describes the input and output of the program |
-| Data Abstraction | [&check;]  one program code that shows how data has been stored in this list (or another collection type). <br/> [&check;]  one program code that shows the data in this same list being used as part of fulfilling the program’s purpose. <br/> [&check;] identifies the name of the variable representing the list being used in this response. <br/> [&check;]  describes what the data contained in this list is representing in the program | 
-| Managing Complexity | [ ]  includes a program code segment that shows a list being used to manage complexity in the program <br/> [ ] explains how the named, selected list manages complexity in the program code by explaining why the program code could not be written, or how it would be written differently, without using this list. |
-| Procedural Abstraction | [&check;] one program code showing a student-developed procedure with at least one parameter that has an effect on the functionality of the procedure  <br/> [ ] one program code showing where the student-developed procedure is being called. <br/> [&check;] describes what the identified procedure does and how it contributes to the overall functionality of the program | 
-| Algorithm Implementation | {[ ]  includes a program code segment of a student-developed algorithm that includes sequencing, selection, and iteration <br/> [&check;] explains in detailed steps how the identified algorithm works in enough detail that someone else could recreate it | 
-| Testing | [&check;] describes two calls to the selected procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute. <br/> [&check;]  describes the condition(s) being tested by each call to the procedure. <br/> [&check;]  identifies the result of each call |
-
-## Sarah
-Score: 5/6
-| Reporting Category | Requirements |
-|  ------------- | ------------- |
-| Program Purpose and Function | check describes the overall purpose of the program demonstrated in the video. <br/> check describes what functionality of the program is demonstrated in the video <br/> check describes the input and output of the program |
-| Data Abstraction | check one program code that shows how data has been stored in this list (or another collection type). <br/> check one program code that shows the data in this same list being used as part of fulfilling the program’s purpose. <br/> check identifies the name of the variable representing the list being used in this response. <br/> [ ]  describes what the data contained in this list is representing in the program | 
-| Managing Complexity | [ ]  includes a program code segment that shows a list being used to manage complexity in the program <br /> [ ] explains how the named, selected list manages complexity in the program code by explaining why the program code could not be written, or how it would be written differently, without using this list. |
-| Procedural Abstraction | check one program code showing a student-developed procedure with at least one parameter that has an effect on the functionality of the procedure  <br/> [&check;] one program code showing where the student-developed procedure is being called. <br/> [&check;] describes what the identified procedure does and how it contributes to the overall functionality of the program | 
-| Algorithm Implementation | {[&check;]  includes a program code segment of a student-developed algorithm that includes sequencing, selection, and iteration <br/> [&check;] explains in detailed steps how the identified algorithm works in enough detail that someone else could recreate it | 
-| Testing | [&check;] describes two calls to the selected procedure identified in written response 3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute. <br/> [&check;]  describes the condition(s) being tested by each call to the procedure. <br/> [&check;]  identifies the result of each call |
+[Peer Grades](https://github.com/JonathanWuz/Jonathan-Wu-s-Repository/issues/33)
