@@ -16,9 +16,11 @@ This program allows a user to input various attributes of their product such as 
 The inputs of the program are the user’s typed entries into the form for which entries are made. The program collects this data and returns an input stating whether or not the inventory was successfully added - depending on if the user’s entries met the requirements such as filling out all fields - and then may be called upon to displays its entries within the search feature that neatly formats the attributes in a table.
 ## 3.b
 ### 3.b.i.
-![]({{site.baseurl}}/images/Screenshot (107).png)
+<img src="{{site.baseurl}}/images/Screenshot (107).png" alt="Code" style="width:250px;height:350px;">
+
 ### 3.b.ii.
-![]({{site.baseurl}}/images/Screenshot (108).png)
+<img src="{{site.baseurl}}/images/Screenshot (108).png" alt="CodeProcedure" style="width:325px;height:450px;">
+
 ### 3.b.iii.
 The variables stored are titled respectively through the form box. They are titled product, cost, and stock. There is also ID which is set to current time value.
 ### 3.b.iv. 
@@ -27,13 +29,15 @@ All the variable in my list ar important to my program because they represent un
 By storing the variables respectively, I manage complexity by preventing duplicate or mistaken values. If my values were the same, I would have conflicting values in my database which would likely lead to it being disfunctional. To fix this through a different method, I would have to lengthen my code and make it more complex.
 ## 3.c
 ### 3.c.i.
-![]({{site.baseurl}}/images/Screenshot (108).png)
+<img src="{{site.baseurl}}/images/Screenshot (108).png" alt="CodeProcedure" style="width:325px;height:450px;">
+
 ### 3.c.ii.
-![]({{site.baseurl}}/images/Screenshot (107).png)
+<img src="{{site.baseurl}}/images/Screenshot (107).png" alt="Code" style="width:250px;height:350px;">
+
 ### 3.c.iii.
 The procedure here is addProduct. It retrieves the user input from the formboxes. When the 'click' is made on each respective button the input from the user is stored and placed into a database which is then displayed within the input field. Also, the program gets elements by their id which is product, cost, and stock respectively.
 ### 3.c.i.v
-![]({{site.baseurl}}/images/Screenshot (110).png)
+<img src="{{site.baseurl}}/images/Screenshot (110).png" alt="CodeMain" style="width:400px;height:550px;">
 The code defines a function addProduct which starts by collecting input data from a web form using document.getElementById. The function then proceeds to use selection to check if the username field is empty, and if it is, it displays an alert to the user and returns from the function. If the username field is not empty, the function constructs a data object using sequencing, which contains the input values collected earlier. The function then constructs a requestOptions object also using sequencing which includes the data object, and specifies the HTTP method and content type headers for a POST request.
 
 ## 3.d
