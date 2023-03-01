@@ -24,7 +24,7 @@ Del Norte High School holds an event called Night at The Museum which allows stu
 - Ultimately, prsenting my project with my makeshift N@TM was a lot of fun as I got to show off my last few week's of hard work. And I also got some helpful advice to improve my program which I was very grateful for.
 
 # Looking at Other Projects
-<img src="/image/Screenshot (103).png" alt="Derrick's 3D animation project" style="width:500px;height:600px;">
+<img src="/image/Screenshot (103).png">
 I wasn't able to see many projects due to my predicament. Many of my friends did not participate in N@TM and of the ones that did, many of them weren't able to access their projects. However, I was able to view my friend, Derrick Huang's, 3D animation project. In his project, his purpose was to 3D animate a donut and add additional, creative features around it. 
 
 He explained that some people put donuts on a table and put a plant next to it or put it on a car. In any case, the emphasis was on the donut. I was particularly interested in this project because I have experience in art but have never dealt with 3D animation. It was something interesting and something that I wanted to learn.
