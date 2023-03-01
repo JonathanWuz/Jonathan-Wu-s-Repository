@@ -16,7 +16,7 @@ Del Norte High School holds an event called Night at The Museum which allows stu
 # Presenting at N@TM 
 **Side Note**
 - I got to show off my program to so many people that I got carried away and forgot to take pictures and record them. However, it is the experience that counts, not the recording of it.
-<img src="/image/IMG-0892.jpg" alt="Andrew viewing my project" style="width:500px;height:600px;">
+<img src="/images/IMG-0892.jpg" alt="Andrew viewing my project" style="width:850px;height:600px;">
 - The first person I showed my program off to was Andrew Reid who just so happened to be available and at school on the day of N@TM. So I ran my program and tried to explain my code. However, I realized that besides the functionality of my program, Andrew had trouble understanding the code behind the scenes. Words like "databases", "CRUD", "API", etc. were all terms that weren't easy to comprehend. However, he still enjoyed my presentation and I enjoyed my first trial of N@TM.
 ![Video of me presenting my project](https://drive.google.com/drive/u/1/shared-with-me)
 - The next person I presented to was Derrick Huang. This time I tried to incorporate more friendly language and a simpler explanation of my feature. After showing off the program itself, I presented the code in categories: frontend, backend, and model. I explained how each one was connected to each other but I may have generalized things too much because although Derrick was getting it, there were several important code blocks that I glossed over. So I learned that in future presentations I needed to use simple language but also delve deep into my project's many components.
@@ -24,7 +24,7 @@ Del Norte High School holds an event called Night at The Museum which allows stu
 - Ultimately, prsenting my project with my makeshift N@TM was a lot of fun as I got to show off my last few week's of hard work. And I also got some helpful advice to improve my program which I was very grateful for.
 
 # Looking at Other Projects
-<img src="/image/Screenshot (103).png">
+<img src="/images/Screenshot (103).png" alt="Derrick's 3D Animation Project" style="width:400px;height:300px;">>
 I wasn't able to see many projects due to my predicament. Many of my friends did not participate in N@TM and of the ones that did, many of them weren't able to access their projects. However, I was able to view my friend, Derrick Huang's, 3D animation project. In his project, his purpose was to 3D animate a donut and add additional, creative features around it. 
 
 He explained that some people put donuts on a table and put a plant next to it or put it on a car. In any case, the emphasis was on the donut. I was particularly interested in this project because I have experience in art but have never dealt with 3D animation. It was something interesting and something that I wanted to learn.
