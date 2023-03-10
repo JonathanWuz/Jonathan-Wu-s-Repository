@@ -8,7 +8,7 @@ layout: post
 
 # Reflection
 
-<img src="{{site.baseurl}}/images/Screenshot (109).png" alt="MCQ Score" style="width:650px;height:100px;">
+<img src="{{site.baseurl}}/images/Screenshot (121).png" alt="MCQ Score" style="width:650px;height:100px;">
  
  Overall, as seen in the image above, I got a score of 41/50 whichlands me at an 82% which is around the same score I got last trimester. On last trimester's final. There was slight improvements here and there. Specifically in the areas that I had practiced from last trimester's review - the problems I missed the most last MCQ -, I saw significan timprovement in these areas. I can't say they were exactly perfect but only a couple of errors. However, new units were introduced in this tri 2 mcq which led me to miss multiple problems. Additionally, I had finished after the deadline and was a little rushed to get my test back. But if I work on some of my new flaws, I think I will be in a positing to have a high level understanding of what College Board asks from me in the future AP test.
 
@@ -23,7 +23,7 @@ layout: post
  # Reworked Problems
 
  ### Missed Problem #18
-<img src="{{site.baseurl}}/images/Screenshot (118).png" alt="Missed Problem #1" style="width:300px;height:300px;">
+<img src="{{site.baseurl}}/images/Screenshot (118).png" alt="Missed Problem #1" style="width:400px;height:300px;">
 - The problem here is that a public key is the key that is meant to shown to everybody and is thus unimportant. But a group of cookies is a problem for possible cyber threats.
 
 ### Missed Problem #19
