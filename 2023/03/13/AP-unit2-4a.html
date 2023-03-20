@@ -213,7 +213,7 @@ window.onload = wrap_img;
 <span class="c1"># Setup of key Flask object (app)</span>
 <span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
 <span class="c1"># Setup SQLAlchemy object and properties for the database (db)</span>
-<span class="n">database</span> <span class="o">=</span> <span class="s1">'sqlite:///files/sqlite.db'</span>  <span class="c1"># path and filename of database</span>
+<span class="n">database</span> <span class="o">=</span> <span class="s1">'sqlite:///sqlite.db'</span>  <span class="c1"># path and filename of database</span>
 <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'SQLALCHEMY_TRACK_MODIFICATIONS'</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'SQLALCHEMY_DATABASE_URI'</span><span class="p">]</span> <span class="o">=</span> <span class="n">database</span>
 <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s1">'SECRET_KEY'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'SECRET_KEY'</span>
@@ -483,22 +483,14 @@ window.onload = wrap_img;
 
 <div class="output_area">
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb Cell 8</span> in <span class="ansi-cyan-fg">&lt;cell line: 30&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb#X10sdnNjb2RlLXJlbW90ZQ%3D%3D?line=26'&gt;27&lt;/a&gt;</span>                 '''fails with bad or duplicate data'''
-<span class="ansi-green-intense-fg ansi-bold">     &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb#X10sdnNjb2RlLXJlbW90ZQ%3D%3D?line=27'&gt;28&lt;/a&gt;</span>                 print(f"Records exist uid {user.uid}, or error.")
-<span class="ansi-green-fg">---&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb#X10sdnNjb2RlLXJlbW90ZQ%3D%3D?line=29'&gt;30&lt;/a&gt;</span> initUsers()
-
-<span class="ansi-green-intense-fg ansi-bold">/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb Cell 8</span> in <span class="ansi-cyan-fg">initUsers</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb#X10sdnNjb2RlLXJlbW90ZQ%3D%3D?line=4'&gt;5&lt;/a&gt;</span> def initUsers():
-<span class="ansi-green-fg">----&gt; &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb#X10sdnNjb2RlLXJlbW90ZQ%3D%3D?line=5'&gt;6&lt;/a&gt;</span>     with app.app_context():
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb#X10sdnNjb2RlLXJlbW90ZQ%3D%3D?line=6'&gt;7&lt;/a&gt;</span>         """Create database and tables"""
-<span class="ansi-green-intense-fg ansi-bold">      &lt;a href='vscode-notebook-cell://wsl%2Bubuntu/home/jwu20/vscode/Jonathan-Wu-s-Repository/_notebooks/2023-03-13-AP-unit2-4a.ipynb#X10sdnNjb2RlLXJlbW90ZQ%3D%3D?line=7'&gt;8&lt;/a&gt;</span>         db.create_all()
-
-<span class="ansi-red-fg">NameError</span>: name 'app' is not defined</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Created new uid toby
+Created new uid niko
+Created new uid lex
+Created new uid whit
+Created new uid indi
+Created new uid raven
+</pre>
 </div>
 </div>
 
@@ -632,6 +624,21 @@ window.onload = wrap_img;
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Found
+ {'id': 1, 'name': 'Thomas Edison', 'uid': 'toby', 'dob': '02-11-1847', 'age': 176}
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
     
 
@@ -673,6 +680,51 @@ window.onload = wrap_img;
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[{'id': 1,
+  'name': 'Thomas Edison',
+  'uid': 'toby',
+  'dob': '02-11-1847',
+  'age': 176},
+ {'id': 2,
+  'name': 'Nikola Tesla',
+  'uid': 'niko',
+  'dob': '03-15-2023',
+  'age': 0},
+ {'id': 3,
+  'name': 'Alexander Graham Bell',
+  'uid': 'lex',
+  'dob': '03-15-2023',
+  'age': 0},
+ {'id': 4,
+  'name': 'Eli Whitney',
+  'uid': 'whit',
+  'dob': '03-15-2023',
+  'age': 0},
+ {'id': 5,
+  'name': 'Indiana Jones',
+  'uid': 'indi',
+  'dob': '10-21-1920',
+  'age': 102},
+ {'id': 6,
+  'name': 'Marion Ravenwood',
+  'uid': 'raven',
+  'dob': '10-21-1921',
+  'age': 101}]</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
