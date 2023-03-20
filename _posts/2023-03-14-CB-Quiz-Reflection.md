@@ -6,7 +6,7 @@ categories: [markdown]
 layout: post
 ---
 
-# Revisions
+# Using Programs With Data Quiz
 
 <img src="{{site.baseurl}}/images/Screenshot.png" alt="CB Missed Question #1" style="width:600px;height:400px;">
 
@@ -24,6 +24,8 @@ Correct. For each transaction, the data includes the date of the transaction and
 <img src="{{site.baseurl}}/images/Screens.png" alt="CB Missed Question #4" style="width:600px;height:450px;">
 
 - To be counted, a show must be a talk show that airs on Saturday or Sunday. Therefore, the AND operator should be used instead of the first OR operator. For a show to be counted, the value of genre must be "talk" and the value of day must be "Saturday" or "Sunday".
+
+# 
 
 <img src="{{site.baseurl}}/images/ScreensLmao.png" alt="CB Missed Question #5" style="width:600px;height:500px;">
 
