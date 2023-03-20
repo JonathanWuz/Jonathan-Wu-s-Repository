@@ -8,4 +8,4 @@ layout: post
 
 # Results Overview
 
-<img src = "{{site.baseurl}}/images/Big-Idea-2-Quiz-Results">
+![]({{ site.baseurl }}/images/Big-Idea-2-Quiz-Results.png)
