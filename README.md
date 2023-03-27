@@ -1,4 +1,4 @@
-[//]: # (This template replaces README.md when someone creates a new repo with the fastpages template.
+[//]: # (This template replaces README.md when someone creates a new repo with the fastpages template.)
 
 ![](https://github.com/JonathanWuz/Jonathan-Wu-s-Repository/workflows/CI/badge.svg) 
 ![](https://github.com/JonathanWuz/Jonathan-Wu-s-Repository/workflows/GH-Pages%20Status/badge.svg) 
