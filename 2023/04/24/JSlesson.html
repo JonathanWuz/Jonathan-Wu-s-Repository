@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      5 min read
+      6 min read
     
 </span></p>
 
@@ -952,6 +952,50 @@ false
 <ul>
 <li>This is a hangman Javascript game code through html and javascript. The Submit button is colorful and is apart of the SASS hacks.</li>
 </ul>
+<h2 id="JS-Code:">JS Code:<a class="anchor-link" href="#JS-Code:"> </a></h2>
+<pre><code>&lt;script&gt;
+    // Initialize variables
+    var words = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "indian gooseberry", "jackfruit", "kiwi", "lemon", "mango", "nectarine", "orange", "peach", "quince", "raspberry", "strawberry", "tangerine", "ugli fruit", "vanilla", "watermelon", "xylocarp", "yellow watermelon", "zucchini"];
+    var wordToGuess = words[Math.floor(Math.random() * words.length)];
+    var incorrectGuesses = [];
+    var gameStatus = "";
+    var guessInput = document.getElementById("guess-input");
+    var wordToGuessDisplay = document.getElementById("word-to-guess");
+    var incorrectGuessesDisplay = document.getElementById("incorrect-guesses");
+    var gameStatusDisplay = document.getElementById("game-status");
+
+    // Initialize the word to guess display
+    var wordToGuessArray = [];
+    for (var i = 0; i &lt; wordToGuess.length; i++) {
+        wordToGuessArray.push("_");
+    }
+    wordToGuessDisplay.innerHTML = wordToGuessArray.join(" ");
+
+    // Function to handle a guess
+    function guessLetter() {
+        var guess = guessInput.value.toLowerCase();
+        if (guess.length === 1 &amp;&amp; guess.match(/[a-z]/i)) {
+            if (wordToGuess.includes(guess)) {
+                for (var i = 0; i &lt; wordToGuess.length; i++) {
+                    if (wordToGuess[i] === guess) {
+                        wordToGuessArray[i] = guess;
+                    }
+                }
+                wordToGuessDisplay.innerHTML = wordToGuessArray.join(" ");
+            } else {
+                incorrectGuesses.push(guess);
+                incorrectGuessesDisplay.innerHTML = incorrectGuesses.join(" ");
+            }
+            guessInput.value = "";
+        }
+        if (wordToGuessArray.indexOf("_") === -1) {
+            gameStatus = "You win!";
+        } else if (incorrectGuesses.length === 6) {
+            gameStatus = "You lose!";
+        }
+        gameStatusDisplay.innerHTML = gameStatus;
+    }
+&lt;/script&gt;</code></pre>
 
 </div>
 </div>
