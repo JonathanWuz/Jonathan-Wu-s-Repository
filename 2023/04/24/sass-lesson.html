@@ -194,144 +194,19 @@ window.onload = wrap_img;
 </div>
 </div>
 </div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span><span class="c1">// Mixin</span>
-
-<span class="c1">// Generate a random number between 1 and 100</span>
-<span class="kr">const</span> <span class="nx">randomNumber</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">*</span> <span class="mf">100</span><span class="p">);</span>
-
-<span class="c1">// Keep track of the number of guesses</span>
-<span class="kd">let</span> <span class="nx">numGuesses</span> <span class="o">=</span> <span class="mf">5</span><span class="p">;</span>
-
-<span class="c1">// Ask the user to guess a number until they get it right</span>
-<span class="k">while</span> <span class="p">(</span><span class="kc">true</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kr">const</span> <span class="nx">guess</span> <span class="o">=</span> <span class="nx">prompt</span><span class="p">(</span><span class="s1">&#39;Guess a number between 1 and 100&#39;</span><span class="p">);</span>
-
-  <span class="c1">// If the user cancels the prompt, exit the game</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">guess</span> <span class="o">===</span> <span class="kc">null</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;Goodbye!&#39;</span><span class="p">);</span>
-    <span class="k">break</span><span class="p">;</span>
-  <span class="p">}</span>
-
-  <span class="c1">// Convert the guess to a number</span>
-  <span class="kr">const</span> <span class="nx">guessNumber</span> <span class="o">=</span> <span class="nb">Number</span><span class="p">(</span><span class="nx">guess</span><span class="p">);</span>
-
-  <span class="c1">// If the guess is not a number between 1 and 100, ask the user to guess again</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nb">isNaN</span><span class="p">(</span><span class="nx">guessNumber</span><span class="p">)</span> <span class="o">||</span> <span class="nx">guessNumber</span> <span class="o">&lt;</span> <span class="mf">1</span> <span class="o">||</span> <span class="nx">guessNumber</span> <span class="o">&gt;</span> <span class="mf">100</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;Please enter a number between 1 and 100&#39;</span><span class="p">);</span>
-    <span class="k">continue</span><span class="p">;</span>
-  <span class="p">}</span>
-
-  <span class="c1">// Increment the number of guesses</span>
-  <span class="nx">numGuesses</span><span class="o">++</span><span class="p">;</span>
-
-  <span class="c1">// Check if the guess is correct</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">guessNumber</span> <span class="o">===</span> <span class="nx">randomNumber</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="sb">`Congratulations! You guessed the number in </span><span class="si">${</span><span class="nx">numGuesses</span><span class="si">}</span><span class="sb"> guesses.`</span><span class="p">);</span>
-    <span class="k">break</span><span class="p">;</span>
-  <span class="p">}</span>
-
-  <span class="c1">// If the guess is too high, tell the user to guess lower</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">guessNumber</span> <span class="o">&gt;</span> <span class="nx">randomNumber</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;Too high! Guess lower.&#39;</span><span class="p">);</span>
-  <span class="p">}</span>
-
-  <span class="c1">// If the guess is too low, tell the user to guess higher</span>
-  <span class="k">if</span> <span class="p">(</span><span class="nx">guessNumber</span> <span class="o">&lt;</span> <span class="nx">randomNumber</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;Too low! Guess higher.&#39;</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-evalmachine.&lt;anonymous&gt;:1
-// Mixin
-^
-
-TypeError: Identifier &#39;randomNumber&#39; has already been declared
-    at evalmachine.&lt;anonymous&gt;:1:1
-    at ContextifyScript.Script.runInThisContext (vm.js:25:33)
-    at Object.runInThisContext (vm.js:97:38)
-    at run ([eval]:1020:15)
-    at onRunRequest ([eval]:864:18)
-    at onMessage ([eval]:828:13)
-    at emitTwo (events.js:106:13)
-    at process.emit (events.js:191:7)
-    at process.nextTick (internal/child_process.js:758:12)
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-javascript"><pre><span></span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_text output_error">
-<pre>
-evalmachine.&lt;anonymous&gt;:1
-let number = &#34;dog&#34;;
-^
-
-TypeError: Identifier &#39;number&#39; has already been declared
-    at evalmachine.&lt;anonymous&gt;:1:1
-    at ContextifyScript.Script.runInThisContext (vm.js:25:33)
-    at Object.runInThisContext (vm.js:97:38)
-    at run ([eval]:1020:15)
-    at onRunRequest ([eval]:864:18)
-    at onMessage ([eval]:828:13)
-    at emitTwo (events.js:106:13)
-    at process.emit (events.js:191:7)
-    at process.nextTick (internal/child_process.js:758:12)
-    at _combinedTickCallback (internal/process/next_tick.js:73:7)</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Mini-hack">Mini-hack<a class="anchor-link" href="#Mini-hack"> </a></h1><p>Write out a mixin in SASS that takes in a color and a font size as the parameter. Within the mixin, set the background color and font color to the color parameter, and set the font size to the font size parameter. Then create a selector that calls the mixin, and pass in a color and font size of your choice as the arguments.</p>
+<p>SASS Code:</p>
+
+<pre><code>@mixin testCode($testColor, $fontSize) {
+    background: $testColor;
+    color: $testColor;
+    font-size: $fontSize;
+}
+.testCodeSelector {
+    @include testCode(#00ffc1, 10px);
+}</code></pre>
 
 </div>
 </div>
@@ -377,6 +252,86 @@ TypeError: Identifier &#39;number&#39; has already been declared
 <li><p>Extra credit: Research other SASS features and blog about what you learned or add to your SASS project with any extra features not covered in this lesson. More points will be given if both are done.</p>
 </li>
 </ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="SASS-Quiz">SASS Quiz<a class="anchor-link" href="#SASS-Quiz"> </a></h2><ol>
+<li>B</li>
+<li>A</li>
+<li>C</li>
+<li>A</li>
+<li>D</li>
+<li>B</li>
+<li>B</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Researched-SASS-features">Researched SASS features<a class="anchor-link" href="#Researched-SASS-features"> </a></h2><p>Variables:</p>
+<ul>
+<li>Enables users to define values</li>
+<li>Can be used to define colors, font sizes, margins, padding values, and more.</li>
+</ul>
+<p>Control Directives:</p>
+<ul>
+<li>Some examples are @if, @for, and @each</li>
+<li>These enable us to write conditional statements and loops, and also allow iteration</li>
+</ul>
+<p>Partials:</p>
+<ul>
+<li>Partial SASS files that contain small code segments</li>
+<li>Can be included in other files</li>
+<li>Is an easy way to organize code</li>
+<li>Name with an underscore like _partial.scss</li>
+</ul>
+<p>Modules:</p>
+<ul>
+<li>Can be used to split SASS code in a single file
+@use</li>
+<li>Loads another SASS file as a module</li>
+<li>Its variables, mixins, and functions can be accessed</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="SASS-Program">SASS Program<a class="anchor-link" href="#SASS-Program"> </a></h2><p>(link)[<a href="https://jonathanwuz.github.io/LeuckACheuck/">https://jonathanwuz.github.io/LeuckACheuck/</a>]</p>
+<ul>
+<li>Sass code used on submit button</li>
+</ul>
+<p>SASS Code:</p>
+
+<pre><code>&lt;style&gt;
+@mixin button-styles {
+    font-size: 1.2em;
+    padding: 30px 50px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    transition: all 0.2s ease-in-out;
+}
+
+.button {
+    @include button-styles;
+    width: 25%;
+    height: 150px;
+    margin: auto;
+    border-radius: 30px;
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+
+&lt;/style&gt;</code></pre>
 
 </div>
 </div>
